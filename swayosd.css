@@ -1,0 +1,14 @@
+@define-color background-color #121212;
+@define-color border-color #e68e0d;
+@define-color label #bebebe;
+@define-color image #bebebe;
+@define-color progress #e68e0d;
+
+window.background,
+#osd,
+.osd,
+swayosd-window {
+    padding: 10px 20px;
+    border-width: 3px;
+    border-radius: 24px;
+}

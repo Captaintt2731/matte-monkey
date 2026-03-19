@@ -1,0 +1,41 @@
+@define-color selected-text #e68e0d;
+@define-color text #bebebe;
+@define-color base #121212;
+@define-color border #e68e0dDE;
+@define-color foreground #e68e0d;
+@define-color background #121212;
+
+window * {
+    font-size: 20px;
+}
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 30px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: @background;
+    border: 3px solid @border;
+    border-radius: 24px;
+    padding: 40px 40px 60px 40px;
+}
+
+window .search-container {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+window .input {
+  background: transparent;
+  color: @text;
+}

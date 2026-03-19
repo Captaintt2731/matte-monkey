@@ -1,0 +1,23 @@
+@define-color foreground #bebebe;
+@define-color background rgba(0,0,0,0.0);
+
+* {
+  background-color: @background;
+  color: @foreground;
+  font-weight: bold;
+}
+
+#workspaces button.active {
+  color: #e68e0d;
+  background-color: rgba(0,0,0,0.0);
+}
+
+#workspaces button.active label {
+  color: #e68e0d;
+  font-weight: bold;
+}
+
+#workspaces button.urgent {
+  color: #D35F5F;
+  background-color: rgba(0,0,0,0.0);
+}
